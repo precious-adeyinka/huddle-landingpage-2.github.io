@@ -41,7 +41,7 @@
     left: 20px;
   }
   .footer__card--title {
-    font-size: 0.5rem!important;
+    font-size: 0.8rem!important;
   }
   .footer__grid {
     grid-template-columns: 40% repeat(2, 33.3%);
@@ -93,7 +93,7 @@
   }
   .footer__desc {
     font-size: 1em;
-    min-width: 400px!important;
+    min-width: 200px!important;
   }
   .attribution {
     text-align: center!important;
