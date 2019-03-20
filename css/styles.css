@@ -111,9 +111,7 @@ header h1 {
   border-radius: 20px;
 }
 .card--reversed {
-  /*display: flex;*/
-  /*flex-direction: row-reverse!important;*/
-  /*justify-content: space-between;*/
+  flex-direction: row-reverse!important;
 }
 .card__text {}
 .card__title {

@@ -42,6 +42,10 @@
   }
   .card__desc {
     max-width: 100%;
+    font-size: 0.7em;
+  }
+  .card--reversed {
+    flex-direction: column-reverse!important;
   }
 }
 
@@ -94,6 +98,9 @@
   }
   .footer__icons--row {
     justify-content: center!important;
+  }
+  .footer__desc {
+    font-size: 1em;
   }
   .attribution {
     text-align: center!important;
