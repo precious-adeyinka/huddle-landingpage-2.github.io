@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="stylesheet" href="./lib/bower_components/normalize.css/normalize.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" href="./lib/bower_components/wow/css/libs/animate.css">
+
+  <title>Huddle Landing Page 2</title>
+</head>
+<body>
+  <header>
+    <div class="sub__header--one">
+      <h1>
+        <img class="logo wow lightSpeedIn" data-wow-delay="0" src="images/logo.svg" alt="logo">
+      </h1>
+      <button class="wow wobble" data-wow-delay="1s" type="button" id="hero-btn">Try it Free</button>
+    </div>
+    
+    <div class="sub__header--two">
+      <div class="head__row">
+        <div class="head__text wow pulse" data-wow-delay="2s">
+          <h2 class="head__title">Build The Community Your Fans Will Love</h2>
+          <p class="head__desc">Huddle re-imagines the way build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussions.</p>
+          <button class="head__btn wow tada" data-wow-delay="3s">Get Started For Free</button>
+        </div>
+        <div class="head__col--img">
+          <img class="illustration__mockup--img wow swing" data-wow-duration="5s" data-wow-delay="4s" data-wow-iteration="infinite" src="images/illustration-mockups.svg" alt="Ilustration Mockups">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="card wow bounceInUp" data-wow-delay="0.5s">
+      <section class="card__text">
+        <h2 class="card__title wow flash" data-wow-delay="1s">Grow Together</h2>
+        <p class="card__desc wow bounce" data-wow-delay="2s">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insigthful conversations you miss out on with a feedback form.</p>
+      </section>
+      <section class="card__img--container">
+        <img class="card__img wow slideInRight" data-wow-delay="2s" src="./images/illustration-grow-together.svg" alt="">
+      </section>
+    </article>
+
+    <article class="card wow bounceInUp card--reversed" data-wow-delay="0.5s">
+      <section class="card__text">
+        <h2 class="card__title wow flash" data-wow-delay="1s">Flowing Conversation</h2>
+        <p class="card__desc wow bounce" data-wow-delay="2s">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      </section>
+      <section class="card__img--container">
+        <img class="card__img wow slideInRight" data-wow-delay="2s" src="./images/illustration-flowing-conversation.svg" alt="">
+      </section>
+    </article>
+
+    <article class="card wow bounceInUp" data-wow-delay="0.5s">
+      <section class="card__text">
+        <h2 class="card__title wow flash" data-wow-delay="1s">Your Users</h2>
+        <p class="card__desc wow bounce" data-wow-delay="2s">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your user can start chatting immediately.</p>
+      </section>
+      <section class="card__img--container">
+        <img class="card__img wow slideInRight" data-wow-delay="2s" src="./images/illustration-your-users.svg" alt="">
+      </section>
+    </article>
+
+    <section class="footer__card wow rotateInUpLeft">
+      <h2 class="footer__card--title">Ready To Build Your Community?</h2>
+      <button type="button" class="head__btn">Get Started For Free</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">  
+      <section>
+        <img class="footer__img" src="./images/logo2.svg" alt="logo">
+        <section class="footer__text">
+          <img class="map-marker" src="./images/icon-location.svg" alt="icon-location">
+          <p class="footer__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis totam numquam officia omnis nulla, quos, corporis, quidem.</p>
+        </section>
+        <section class="footer__contact">
+          <img src="./images/icon-phone.svg" alt="icon-phone">
+          <p class="footer__contact--info">+1-543-123-4567</p>
+        </section>
+        <section class="footer__contact">
+          <img src="./images/icon-email.svg" alt="icon-email">
+          <p class="footer__contact--info">example@huddle.com</p>
+        </section>
+      </section>
+
+      <section>
+        <ul class="footer__nav">
+          <li class="footer__nav--item"><a class="footer__nav--link" href="#">About Us</a></li>
+          <li class="footer__nav--item"><a class="footer__nav--link" href="#">What We Do</a></li>
+          <li class="footer__nav--item"><a class="footer__nav--link" href="#">FAQs</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <ul class="footer__nav">
+          <li class="footer__nav--item"><a class="footer__nav--link" href="#">Career</a></li>
+          <li class="footer__nav--item"><a class="footer__nav--link" href="#">Blog</a></li>
+          <li class="footer__nav--item"><a class="footer__nav--link" href="#">Contact Us</a></li>
+        </ul>
+      </section>
+
+      <section class="footer__icons">
+        <div class="footer__icons--row">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+        </div>
+      </section>
+    </div>
+    <p class="attribution">&copy;Copyright 2018 Huddle. All rights reserved.</p>
+  </footer>
+
+  <script src="./lib/bower_components/wow/dist/wow.js"></script>
+  <script>
+    // new WOW.init();
+    var wow = new WOW(
+    {
+      boxClass:     'wow',      // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset:       0,          // distance to the element when triggering the animation (default is 0)
+      mobile:       true,       // trigger animations on mobile devices (default is true)
+      live:         true,       // act on asynchronously loaded content (default is true)
+      callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+      },
+      scrollContainer: null,    // optional scroll container selector, otherwise use window,
+      resetAnimation: true,     // reset animation on end (default is true)
+    }
+    );
+    wow.init();
+  </script>
+</body>
+</html>
