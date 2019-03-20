@@ -93,7 +93,7 @@
   }
   .footer__desc {
     font-size: 1em;
-    min-width: 100px!important;
+    /*min-width: 100px!important;*/
   }
   .attribution {
     text-align: center!important;
